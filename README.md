@@ -63,27 +63,27 @@ import loggerSteps from 'logger-steps';
 ```
 
 ➕ **logger** ( logger )
-<br/> 📝 The logger you want to report to
-<br/> ❗️ currently it should implement the following methods: `error`, `warn`, `log`, `info`, `debug`
-<br/> ℹ️ info
-<br/> 💡 example: console
+<br/> 📝  The logger you want to report to
+<br/> ❗️  currently it should implement the following methods: `error`, `warn`, `log`, `info`, `debug`
+<br/> 💡  **example:** console
 ➖ **logger** ( String ) `✏️ Steps`
-<br/> 📝 The title of the trace
-<br/> ℹ️ It will appear at the top of the output
-<br/> 💡 example: 'AUTH-FLOW'
+<br/> 📝  The title of the trace
+<br/> ℹ️  It will appear at the top of the output
+<br/> 💡  **example:** 'AUTH-FLOW'
 ➖ **logger** ( Number ) `✏️ 30`
-<br/> 📝 Timeout before triggering an automatic flush
-<br/> ❗️ Setting a big timeout could lead to higher memmory usage in case you forget to flush often
-<br/> ℹ️ info:
-<br/> 💡 example: 15
+<br/> 📝  Timeout before triggering an automatic flush
+<br/> ❗️  Setting a big timeout could lead to higher memmory usage in case you forget to flush often
+<br/> ℹ️  specified in seconds
+<br/> 💡  **example:** 15
 
 ### methods
 
-#### #name
+#### #flush
+
+Sends the output to the logger and empties the steps array.
 
 ```js
-loggerSteps
-
+tracer.flush()
 ```
 
 ### Examples
