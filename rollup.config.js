@@ -4,7 +4,7 @@ import uglify from 'rollup-plugin-uglify';
 import bundleSize from 'rollup-plugin-bundle-size';
 import commonjs from 'rollup-plugin-commonjs';
 
-const name = `stepsLogger`;
+const name = `loggerSteps`;
 
 const plugins = [
   babel(),

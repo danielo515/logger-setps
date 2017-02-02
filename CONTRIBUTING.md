@@ -1,8 +1,8 @@
-# Contributing to 'steps-logger'
+# Contributing to 'logger-steps'
 
 ## Support / Questions
 
-For **support or usage questions** like "How do I do X with steps-logger." and "My code doesn't work.", please
+For **support or usage questions** like "How do I do X with logger-steps." and "My code doesn't work.", please
 provide a detailed description and a code example that reproduces your issue.
 
 ## Bugs
@@ -10,7 +10,7 @@ provide a detailed description and a code example that reproduces your issue.
 > The ideal GitHub issue (and even some feature requests) is not an issue, it's a PR with a failing test case.
 <br/> [@rauchg](https://twitter.com/rauchg/status/810589655532007424)
 
-**Before filing an issue please [search the issue tracker](https://github.com/danielo515/steps-logger/issues); your issue may have already been discussed or fixed in `master`.**
+**Before filing an issue please [search the issue tracker](https://github.com/danielo515/logger-steps/issues); your issue may have already been discussed or fixed in `master`.**
 
 **If you want your issue to get priority, submit it as a PR instead**
 
@@ -19,20 +19,20 @@ provide a detailed description and a code example that reproduces your issue.
 ## Feature / Enhancement Requests
 
 Feature or enhancement requests should be **submitted** in the
-[issue tracker](https://github.com/danielo515/steps-logger/issues), with a **description** (follow the template) of the expected behavior & use case, where they’ll remain until **approval** by the **lead maintainer(s) and/or enough interest** from the **community**.
+[issue tracker](https://github.com/danielo515/logger-steps/issues), with a **description** (follow the template) of the expected behavior & use case, where they’ll remain until **approval** by the **lead maintainer(s) and/or enough interest** from the **community**.
 
 You can **request** a feature by **writing a pull request**, but this is **no guarantee** it will be **merged**.
 
 ## 'help wanted' label
 
-There are issues marked with the **['help wanted'](https://github.com/danielo515/steps-logger/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22)** label. <br/>This is a perfect start if you want to help out with the further development of steps-logger.
+There are issues marked with the **['help wanted'](https://github.com/danielo515/logger-steps/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22)** label. <br/>This is a perfect start if you want to help out with the further development of logger-steps.
 
 ## Pull Requests (PR)
 
 In general, the contribution workflow looks like this:
 
 1. **Fork** the repo.
-2. **Clone** the repo. `git clone https://github.com/your-username/steps-logger.git`.
+2. **Clone** the repo. `git clone https://github.com/your-username/logger-steps.git`.
 3. Create a **new branch** based off the master branch, provide a **descriptive name** <br/>(ex. '**feat**-add-better-logging', '**bug**-removed-double-method', '**enh**-bumped-eslint')
 4. Before running the code you’ll need to **install** the **dependencies** (`npm install` or `yarn`).
 5. **Implement** your feature / bugfix (using the **watch scripts**), you should **only need to modify `/src`**. Don’t worry about regenerating the build folders (`/cjs`, `/es`, `/dist`), they are **built** in the **prepublish** phase.

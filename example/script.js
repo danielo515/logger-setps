@@ -1,7 +1,7 @@
 'use strict';
-const stepsLogger = require( `../` );
+const loggerSteps = require( `../` );
 
-const trace = stepsLogger(console /* Reporter */, 'AUTH-FLOW' /* Flow title */, 15 /* Automatic flush timeout */);
+const trace = loggerSteps(console /* Reporter */, 'AUTH-FLOW' /* Flow title */, 15 /* Automatic flush timeout */);
 /** Create a fake user */
 const user = { name: 'Joe', email: 'Joe@yo.com', age: 99 };
 /** Create a fake error */

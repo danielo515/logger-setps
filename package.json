@@ -1,9 +1,9 @@
 {
-  "name": "steps-logger",
+  "name": "logger-steps",
   "version": "0.0.0",
   "description": "Group log messages and send them in one batch to the logger of your choize",
   "main": "cjs/index.js",
-  "browser": "dist/stepsLogger.js",
+  "browser": "dist/loggerSteps.js",
   "module": "es/index.js",
   "jsxnext:main": "es/index.js",
   "files": [
@@ -37,7 +37,7 @@
   "keywords": [],
   "author": "Danielo Rodríguez Rivero (rdanielo@gmail.com)",
   "license": "MIT",
-  "repository": "danielo515/steps-logger",
+  "repository": "danielo515/logger-steps",
   "devDependencies": {
     "babel-cli": "^6.18.0",
     "babel-core": "^6.17.0",
