@@ -7,7 +7,7 @@
 [![Coverage Status](https://img.shields.io/coveralls/danielo515/logger-steps.svg?style=flat-square)](https://coveralls.io/github/danielo515/logger-steps)
 [![Gitmoji](https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square)](https://gitmoji.carloscuesta.me/)
 
-> Group log messages and send them grouped the logger of your choize
+> Group log messages and send them grouped the logger of your choice
 
 Log messages are useful, but they can be missleading if the order is not correct or if related messages
 do not appear close to each other (which is quite common on asynchronous programming).
