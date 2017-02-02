@@ -2,7 +2,8 @@
 
 ## Support / Questions
 
-For **support or usage questions** like "How do I do X with steps-logger." and "My code doesn't work.", please search and ask on **StackOverflow** with a **'steps-logger' tag** first.
+For **support or usage questions** like "How do I do X with steps-logger." and "My code doesn't work.", please
+provide a detailed description and a code example that reproduces your issue.
 
 ## Bugs
 

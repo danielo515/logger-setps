@@ -26,12 +26,12 @@ type Step = {
  * @return {Object} tracer - the tracer object containing the usual methods the logger has
  * @return {function} tracer.flush - sends the complete trace to the provided logger
 */
-const tracer = function (logger: any, tracename: string = `Steps`, secs: number = 30): iTracer {
+const tracer = function (logger: any, tracename: string = `Steps`, secs: number = 30) {
   secs = typeof secs === `number` ? secs : 30;
   let levelName:string = `debug`;
   let level:number = 4;
   const steps: Array<Step | string> = [`${tracename  }: \n`];
-  const API:iTracer = Object.create(null);
+  const API = {};
   let flushTimeout:number = resetFlushTimeout();
 
     /**
@@ -86,4 +86,4 @@ const tracer = function (logger: any, tracename: string = `Steps`, secs: number 
         }, API);
 };
 
-module.exports = tracer;
+export default tracer;
