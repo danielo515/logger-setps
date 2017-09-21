@@ -1,5 +1,7 @@
 # logger-steps
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/danielo515/logger-steps.svg)](https://greenkeeper.io/)
+
 ![Node](https://img.shields.io/node/v/logger-steps.svg?style=flat-square)
 [![NPM](https://img.shields.io/npm/v/logger-steps.svg?style=flat-square)](https://www.npmjs.com/package/logger-steps)
 [![Travis](https://img.shields.io/travis/danielo515/logger-steps/master.svg?style=flat-square)](https://travis-ci.org/danielo515/logger-steps)
